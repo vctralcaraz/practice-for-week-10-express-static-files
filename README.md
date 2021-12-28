@@ -1,6 +1,6 @@
 # Practice: Serving Static Files in Express
 
-In this practice you will serve static files inside the folder of an Express
+In this practice, you will serve static files inside the folder of an Express
 application.
 
 ## Set up
@@ -10,7 +10,7 @@ application.
 Run `npm run dev` to start the server at [http://localhost:5000] in
 development.
 
-## File paths appended to root URL
+## Part 1: File paths appended to root URL
 
 In your `server` folder, there is a folder called `assets` that holds CSS
 stylesheets, images, and JavaScript scripts. Serve all the files in the `assets`
@@ -24,7 +24,7 @@ paths:
 - `assets/scripts/hello-world.js` - [http://localhost:5000/scripts/hello-world.js]
 - `assets/images/hello.png` - [http://localhost:5000/images/hello.png]
 
-## File paths appended to root URL II
+## Part 2: File paths appended to root URL II
 
 Comment out the code that you wrote previously.
 
@@ -40,7 +40,7 @@ You should **NOT** see the following assets at the respective URL paths:
 - `assets/css/application.css` - [http://localhost:5000/css/application.css]
 - `assets/scripts/hello-world.js` - [http://localhost:5000/scripts/hello-world.js]
 
-## File paths appended to a resource
+## Part 3: File paths appended to a resource
 
 Serve the files in the `assets/css` folder under a route resource called
 `stylesheets`.
@@ -54,14 +54,6 @@ You should **NOT** see the following assets at the respective URL paths:
 
 - `assets/css/application.css` - [http://localhost:5000/css/application.css]
 - `assets/scripts/hello-world.js` - [http://localhost:5000/scripts/hello-world.js]
-
-## File paths appended to a resource II
-
-Serve the files in the `assets/images` folder under a route resource called
-`stickers`.
-
-What do you expect the URL path to be for requesting the
-`assets/images/hello.png` file? Is your hypothesis correct?
 
 [http://localhost:5000]: http://localhost:5000
 [http://localhost:5000/css/application.css]: http://localhost:5000/css/application.css
