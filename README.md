@@ -38,7 +38,6 @@ paths:
 You should **NOT** see the following assets at the respective URL paths:
 
 - `assets/css/application.css` - [http://localhost:5000/css/application.css]
-- `assets/scripts/hello-world.js` - [http://localhost:5000/scripts/hello-world.js]
 
 ## Part 3: File paths appended to a resource
 
